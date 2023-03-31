@@ -5,7 +5,15 @@ public class CabinCrew extends Person {
     private Rank rank;
 
     public CabinCrew(String name, Integer weight,Rank rank) {
-        super(name, weight);
+        super(name);
+        this.rank = rank;
+    }
+
+    public Rank getRank() {
+        return rank;
+    }
+
+    public void setRank(Rank rank) {
         this.rank = rank;
     }
 }

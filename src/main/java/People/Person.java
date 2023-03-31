@@ -4,11 +4,11 @@ public abstract class Person {
 
     private String name;
 
-    private Integer weight;
+    private Integer weight = 50;
 
-    public Person (String name, Integer weight){
+    public Person (String name){
         this.name = name;
-        this.weight = 50;
+
     }
 
     public String getName() {
@@ -23,7 +23,4 @@ public abstract class Person {
         return weight;
     }
 
-    public void setWeight(Integer weight) {
-        this.weight = weight;
-    }
 }

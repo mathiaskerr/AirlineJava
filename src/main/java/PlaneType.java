@@ -1,7 +1,7 @@
 public enum PlaneType {
-    BOEING747(10,50),
-    BOEING769(15, 100),
-    BOEING420(5, 40);
+    BOEING747(10,500),
+    BOEING769(15, 1000),
+    BOEING420(10, 400);
 
     private final int capacity;
 
@@ -19,6 +19,10 @@ public enum PlaneType {
 
     public int getWeight() {
         return weight;
+    }
+
+    public double bagsPerPassenger (PlaneType planeType){
+        return (0.5 * weight)/capacity;
     }
 
 
