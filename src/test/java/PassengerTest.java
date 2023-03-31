@@ -9,9 +9,12 @@ import static org.junit.Assert.assertEquals;
 public class PassengerTest {
     Passenger passenger;
 
+
+
     @Before
     public void before(){
         passenger = new Passenger("Jon", 15);
+
 
     }
 
@@ -20,6 +23,7 @@ public class PassengerTest {
         assertEquals("Jon",passenger.getName());
         assertEquals(50, passenger.getWeight(),0.00);
         assertEquals(15, passenger.getBagWeight(),0.00);
-
     }
+
+
 }

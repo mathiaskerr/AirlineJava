@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69defc-4f1f-455d-88d8-193bee6bd52c" name="Changes" comment="fist commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CabinCrewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PassengerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PilotTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
+    <list default="true" id="fb69defc-4f1f-455d-88d8-193bee6bd52c" name="Changes" comment="more commits!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/People/CabinCrew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/People/CabinCrew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/People/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/People/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/People/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/People/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/People/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/People/Pilot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PlaneType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlaneType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CabinCrewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CabinCrewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PassengerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PilotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PilotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680257302368</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="more commits!">
+      <created>1680259877550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680259877550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fist commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fist commit" />
+    <MESSAGE value="more commits!" />
+    <option name="LAST_COMMIT_MESSAGE" value="more commits!" />
   </component>
 </project>

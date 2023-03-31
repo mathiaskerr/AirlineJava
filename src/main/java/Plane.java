@@ -1,3 +1,5 @@
+import People.Pilot;
+
 public class Plane {
 
     private PlaneType planeType;
@@ -11,5 +13,9 @@ public class Plane {
 
     public void setPlaneType(PlaneType planeType) {
         this.planeType = planeType;
+    }
+
+    public String flyPlane(Pilot pilot) {
+        return pilot.getName() + " is flyity skyity";
     }
 }

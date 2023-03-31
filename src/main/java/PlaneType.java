@@ -21,7 +21,7 @@ public enum PlaneType {
         return weight;
     }
 
-    public double bagsPerPassenger (PlaneType planeType){
+    public double bagsPerPassenger (Plane planeType){
         return (0.5 * weight)/capacity;
     }
 
