@@ -8,7 +8,7 @@ public abstract class Person {
 
     public Person (String name, Integer weight){
         this.name = name;
-        this.weight = weight;
+        this.weight = 50;
     }
 
     public String getName() {
