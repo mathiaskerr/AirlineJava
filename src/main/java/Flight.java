@@ -25,10 +25,6 @@ public class Flight {
        this.destination = destination;
        this.departureAirport = departureAirport;
        this.departureTime = departureTime;
-
-
-
-
    }
 
     public ArrayList<Passenger> getBookedPassengers() {
@@ -82,4 +78,19 @@ public class Flight {
     public void setDepartureTime(String departureTime) {
         this.departureTime = departureTime;
     }
+
+    public int getAvailableSeats() {
+       return getPlane().getPlaneType().getCapacity() - bookedPassengers.size();
+    }
+
+    public String bookPassenger(Passenger passenger) {
+       if(getAvailableSeats() > 0){
+            if (!bookedPassengers.contains(passenger)) {
+                bookedPassengers.add(passenger);
+                return "Flight Booked";
+            }
+        }
+       return "Not Enough Seats left";
+    }
+
 }
